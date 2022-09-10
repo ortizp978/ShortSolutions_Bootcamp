@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Short Solutions Agency Contact Section</title>
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link href="css/main.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+
+<section class="hidden" id="topBar"></section>
+
+  <div id="siteContainer">
+
+    <header id="mainHeader">
+      <div id="logo">
+        <a href="index.html"><img src="images/header_logo.svg" alt="Tilex Logo"></a>
+      </div>
+      <nav id="mainNav">
+        <h1 class="hidden">Short Solutions Agency - Main Navigation</h1>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="portfolio.html">PORTFOLIO</a></li>
+            <li><a class="active" href="contact.html">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="homeCover">
+      <h1 class="hidden">Short Solutions Agency - Contact Section</h1>
+      <div id="heroImage">
+        <picture>
+        <source srcset="images/lo-res/contact_m.jpg" media="(max-width: 600px)">  
+        <img src="images/lo-res/contact.jpg" alt="photo couple with a cellphone">
+        </picture>
+      </div>
+      <div id="contactForm" class="form_over">
+        <h1 class="hidden">Contact Form</h1>
+        <h1>CONTACT US</h1>
+        <form action="email.php" method="POST" enctype="text/plain">
+          <input class="firstName" name="firstname" type="text" placeholder="First Name">
+          <input class="lastName" name="lastname" type="text" placeholder="Last Name">
+          <input class="email_subject" name="email" type="text" placeholder="Email">
+          <input class="email_subject" name="subject" type="text" placeholder="Subject">
+          <textarea class="message" name="msg" placeholder="How can we help you?"></textarea>
+          <input class="sendButtom" name="submit" type="submit" value="Send">
+        </form>
+      </div>
+    </section>
+
+    <footer id="mainFooter">
+      <h1 class="hidden">Short Solutions Agency - Footer</h1>
+      <div id="copyRight"><p>Copyright <span>©SHORT SOLUTIONS AGENCY</span> / All intelectual property under right reserved.</p></div>
+      <h1 class="hidden">Social media icons</h1>
+      <div class="socialIcons">
+        <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram_icon.svg" alt="Instagram Icon"></a>
+        <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook_icon.svg" alt="Facebbok Icon"></a>
+        <a href="https://www.tiktok.com/" target="_blank"><img src="images/tiktok_icon.svg" alt="Tik Tok Icon"></a>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
