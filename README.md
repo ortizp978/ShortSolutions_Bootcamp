@@ -16,6 +16,11 @@
 ## Language Used in this site:
 - HTML, CSS, Js
 
+**Project Description**
+This project will intrduce a portfolio website for a digital marketing company. The homepage has a synopsis about the company with a video promotion.
+You might have some difficulties with the playing the video button but we are working on this problem.
+In portfolio page there is one of our project if you like to take a look.
+
 **MIT LICENSE
 Copyright 2022, Amr Shoeib
 
