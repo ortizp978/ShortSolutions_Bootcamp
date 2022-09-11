@@ -225,12 +225,11 @@ a:active {
 }
 
 video {
-	width: 70%;
+	width: 100%;
 	border: thin solid #949393;
-  margin-top: 70px;
-  margin-left: 200px;
+ 
   justify-content: center;
-}
+} 
 
 .lightboxProducts {
   display: none;
@@ -489,6 +488,12 @@ video {
   transform : scale(1.1);
 }
 
+#videoContainer {
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 
 /*-------------------------- About Section -----------------------------------------*/
 
@@ -766,7 +771,7 @@ video {
     }
 
     .lightbox {
-      display: none;
+      /* display: none; */
       position: absolute;
       left: 0;
       margin-top: -200px;
@@ -791,11 +796,9 @@ video {
     }
 
     video {
-    	width: 80%;
+    	width: 61%;
     	border: thin solid #949393;
-      margin-top: 10px;
-      margin-left: 70px;
-      justify-content: center;
+      margin-left: -415px;
     }
 
 
